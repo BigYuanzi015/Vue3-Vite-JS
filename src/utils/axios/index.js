@@ -1,6 +1,6 @@
 import axios from "axios";
 import { getToken, removeToken, removeUser } from "@/utils/Auth";
-import router from "@/router/index.js";
+import router from "@/utils/router/index.js";
 import { notification } from "ant-design-vue";
 
 const [api, contextHolder] = notification.useNotification();
