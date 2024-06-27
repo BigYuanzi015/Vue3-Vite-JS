@@ -27,7 +27,7 @@ export default defineConfig({
   server: {
     // 服务器监听端口
     port: 8080,
-    // 配置代理，用于将本地开发服务器的请求转发到指定的目标服务器
+    // 配置代理，用于将本地开发服务器的请求转发到指定的目标服务器。
     proxy: {
       "/api": {
         target: "http://example.com/",
