@@ -14,7 +14,9 @@ npm run build
 
 ```
 vite-antv-js-template
+├─ .gitignore
 ├─ index.html
+├─ LICENSE
 ├─ package-lock.json
 ├─ package.json
 ├─ public
@@ -25,10 +27,24 @@ vite-antv-js-template
 │  │  └─ example.js
 │  ├─ App.vue
 │  ├─ assets
+│  │  ├─ styles
+│  │  │  └─ global.css
 │  │  └─ vue.svg
 │  ├─ components
 │  │  └─ HelloWorld.vue
+│  ├─ config
+│  │  └─ constants.js
+│  ├─ layout
+│  │  └─ layoutIndex.vue
 │  ├─ main.js
+│  ├─ router
+│  │  └─ index.js
+│  ├─ services
+│  │  └─ index.js
+│  ├─ store
+│  │  ├─ index.js
+│  │  └─ modules
+│  │     └─ example.js
 │  ├─ style.css
 │  ├─ utils
 │  │  ├─ Auth.js

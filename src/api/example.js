@@ -1,4 +1,4 @@
-import request from "@/utils/axios/index.js"; // 引入刚才封装好的axios实例
+import request from "@/services/index.js"; // 引入刚才封装好的axios实例
 
 /**
  * 发起一个GET请求来获取数据

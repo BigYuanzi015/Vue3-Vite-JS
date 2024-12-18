@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import "./style.css";
+import "@/assets/styles/global.css";
 import App from "./App.vue";
 /**
  * 引入AntV
@@ -10,12 +10,12 @@ import "ant-design-vue/dist/reset.css";
 /**
  * 引入Pinia
  */
-import pinia from "@/utils/store";
+import pinia from "@/store";
 
 /**
  * 引入路由
  */
-import router from "@/utils/router";
+import router from "@/router";
 
 /**
  * 创建Vue实例
